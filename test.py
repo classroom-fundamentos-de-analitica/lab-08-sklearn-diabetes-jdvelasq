@@ -71,3 +71,8 @@ def run_grading():
     assert mae_test < 43.2, f"Test MAE: {mae_test:.2f}"
     assert r2_train > 0.48, f"Train R2: {r2_train:.2f}"
     assert r2_test > 0.56, f"Test R2: {r2_test:.2f}"
+
+
+
+if __name__ == "__main__":
+    run_grading()
